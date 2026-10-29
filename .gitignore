@@ -1,0 +1,17 @@
+# Secrets and personal settings -- never commit. config.example.env is the template.
+config.env
+.env
+
+# Runtime data: logs, databases, 1.8 GB of downloaded price history
+state/
+desk.html
+*.log
+
+# Python / macOS
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Scratch
+_to_delete/
